@@ -1,5 +1,4 @@
 def checkio(data):
-    # replace this for solution
     romans_table = [['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX'],
                     ['X', 'XX', 'XXX', 'XL', 'L', 'LX', 'LXX', 'LXXX', 'XC'],
                     ['C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM'],
@@ -14,7 +13,7 @@ def checkio(data):
 
     return ''.join(romans[::-1])
 
-#These "asserts" using only for self-checking and not necessary for auto-testing
+
 if __name__ == '__main__':
     assert checkio(6) == 'VI', '6'
     assert checkio(76) == 'LXXVI', '76'
